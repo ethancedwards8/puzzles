@@ -1,10 +1,10 @@
 # https://makefiletutorial.com/
 CC = gcc
 
-SRCS = $(wildcard *.c)
-BINS = $(SRCS:.c=)
+SRCS = $(wildcard *.cc)
+BINS = $(SRCS:.cc=)
 
 all: $(BINS)
 
-%: %.c
+%: %.cc
 	$(CC) -o bin$@ $<
