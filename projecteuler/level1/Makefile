@@ -7,4 +7,4 @@ BINS = $(SRCS:.c=)
 all: $(BINS)
 
 %: %.c
-	$(CC) -o $@ $<
+	$(CC) -o bin$@ $<
