@@ -7,4 +7,4 @@ BINS = $(SRCS:.cc=)
 all: $(BINS)
 
 %: %.cc
-	$(CC) -Wall -Wextra -o bin$@ $<
+	$(CC) -O3 -Wall -Wextra -o bin$@ $<
