@@ -20,7 +20,7 @@ unsigned long long fib(unsigned int n) {
 }
 
 int main() {
-    unsigned long long i = 0;
+    unsigned int i = 0;
 
     while (true) {
         unsigned long long num = fib(i);
