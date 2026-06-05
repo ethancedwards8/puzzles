@@ -1,5 +1,5 @@
 # https://makefiletutorial.com/
-CC = gcc
+CC = clang++
 
 SRCS = $(wildcard *.cc)
 BINS = $(SRCS:.cc=)
@@ -7,4 +7,4 @@ BINS = $(SRCS:.cc=)
 all: $(BINS)
 
 %: %.cc
-	$(CC) -o bin$@ $<
+	$(CC) -Wall -Wextra -o bin$@ $<
