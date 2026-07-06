@@ -19,7 +19,6 @@
             leetsolv
             leetcode-cli
           ];
-          shellHook = '' ${git}/bin/git pull origin master '';
         }
       );
   };
