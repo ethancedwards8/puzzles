@@ -18,6 +18,7 @@
             leetgo
             leetsolv
             leetcode-cli
+            cf-tool
           ];
         }
       );
